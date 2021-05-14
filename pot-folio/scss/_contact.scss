@@ -1,0 +1,34 @@
+.contact{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:
+    url('../img/model1.png') center top;
+    background-size: cover;
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 2rem;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+    }
+    &-email{
+        padding: 0.2rem;
+        color: #1eae98;  
+    }
+
+    .social-icons{
+        position: initial;
+        margin-top: 2rem;
+    }
+
+}
